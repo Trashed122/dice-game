@@ -89,7 +89,7 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
       scores[activePlayer];
 
     // Ð£Ð³ Ñ‚Ð¾Ð³Ð»Ð¾Ð³Ñ‡ Ñ…Ð¾Ð¶ÑÐ¾Ð½ ÑÑÑÑ…Ð¸Ð¹Ð³ (Ð¾Ð½Ð¾Ð¾ Ð½ÑŒ 100-Ñ Ð¸Ñ… ÑÑÑÑ…) ÑˆÐ°Ð»Ð³Ð°Ñ…
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       // Ð¢Ð¾Ð³Ð»Ð¾Ð¾Ð¼Ñ‹Ð³ Ð´ÑƒÑƒÑÑÐ°Ð½ Ñ‚Ó©Ð»Ó©Ð²Ñ‚ Ð¾Ñ€ÑƒÑƒÐ»Ð½Ð°
       isNewGame = false;
 
